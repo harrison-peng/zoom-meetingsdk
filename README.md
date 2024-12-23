@@ -30,7 +30,6 @@ the [lib/zoomsdk](lib/zoomsdk) folder of this repository.
 If you don't already have them, follow the section on how
 to [Get your Zoom Meeting SDK Credentials](#get-your-zoom-meeting-sdk-credentials).
 
-
 #### Copy the sample config file
 
 ```bash
@@ -55,6 +54,7 @@ docker compose up
 
 That's it! You can use the --help argument in [entry.sh](bin/entry.sh) to see the available CLI and config.toml options.
 ___
+
 ### Get your Zoom Meeting SDK Credentials
 
 In your web browser, navigate to [Zoom Developer Portal](https://developers.zoom.us/) and register/log into your
@@ -91,3 +91,11 @@ with [Premier Developer Support](https://zoom.us/docs/en-us/developer-support-pl
 
 Make sure to review [our documentation](https://developers.zoom.us/docs/meeting-sdk/linux/) as a reference when building
 with the Zoom Meeting SDK for Linux.
+
+## Running the Zoom SDK Script
+
+To run the Zoom SDK script, use the following command:
+
+```shell
+./zoomsdk.sh [join_url] [recording_file_name] [join_token]
+```

@@ -2,7 +2,7 @@ FROM ubuntu:22.04 AS base
 
 SHELL ["/bin/bash", "-c"]
 
-ENV project=meeting-sdk-linux-sample
+ENV project=zoom-meetingsdk
 ENV cwd=/tmp/$project
 
 WORKDIR $cwd

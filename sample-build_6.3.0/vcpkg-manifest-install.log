@@ -1,0 +1,160 @@
+Detecting compiler hash for triplet x64-linux...
+Compiler found: /usr/bin/c++
+The following packages will be built and installed:
+    ada-url:x64-linux@2.9.2
+    cli11:x64-linux@2.4.2#1
+    jwt-cpp:x64-linux@0.7.0#1
+  * openssl:x64-linux@3.4.0
+  * picojson:x64-linux@1.3.0#3
+  * vcpkg-cmake:x64-linux@2024-04-23
+  * vcpkg-cmake-config:x64-linux@2024-05-23
+  * vcpkg-cmake-get-vars:x64-linux@2024-09-22
+Additional packages (*) will be modified to complete this operation.
+Restored 1 package(s) from /root/.cache/vcpkg/archives in 3.82 ms. Use --debug to see more details.
+Installing 1/8 vcpkg-cmake-config:x64-linux@2024-05-23...
+Building vcpkg-cmake-config:x64-linux@2024-05-23...
+-- Installing: /opt/vcpkg/packages/vcpkg-cmake-config_x64-linux/share/vcpkg-cmake-config/vcpkg_cmake_config_fixup.cmake
+-- Installing: /opt/vcpkg/packages/vcpkg-cmake-config_x64-linux/share/vcpkg-cmake-config/vcpkg-port-config.cmake
+-- Installing: /opt/vcpkg/packages/vcpkg-cmake-config_x64-linux/share/vcpkg-cmake-config/copyright
+-- Skipping post-build validation due to VCPKG_POLICY_EMPTY_PACKAGE
+Stored binaries in 1 destinations in 4.5 ms.
+Elapsed time to handle vcpkg-cmake-config:x64-linux: 32.6 ms
+vcpkg-cmake-config:x64-linux package ABI: 262fcaa98ccd83ba28fb4e080836160814d29872e101b13398679088a7caed73
+Installing 2/8 vcpkg-cmake:x64-linux@2024-04-23...
+Elapsed time to handle vcpkg-cmake:x64-linux: 1.4 ms
+vcpkg-cmake:x64-linux package ABI: e10f3e79a2014ec14af3832c9cb1e191ea813cc2781015326f3f7d629e810fcd
+Installing 3/8 ada-url:x64-linux@2.9.2...
+Building ada-url:x64-linux@2.9.2...
+Downloading ada-url-ada-v2.9.2.tar.gz
+Successfully downloaded ada-url-ada-v2.9.2.tar.gz.
+-- Extracting source /opt/vcpkg/downloads/ada-url-ada-v2.9.2.tar.gz
+-- Applying patch no-cpm.patch
+-- Using source at /opt/vcpkg/buildtrees/ada-url/src/v2.9.2-b4dc5b127a.clean
+-- Configuring x64-linux
+-- Building x64-linux-dbg
+-- Building x64-linux-rel
+-- Performing post-build validation
+Stored binaries in 1 destinations in 386 ms.
+Elapsed time to handle ada-url:x64-linux: 23 s
+ada-url:x64-linux package ABI: c05e63fc017bcab3d39598d71ab3076de98ed31c11cde41d532da041d6372d33
+Installing 4/8 cli11:x64-linux@2.4.2#1...
+Building cli11:x64-linux@2.4.2#1...
+Downloading CLIUtils-CLI11-v2.4.2.tar.gz
+Successfully downloaded CLIUtils-CLI11-v2.4.2.tar.gz.
+-- Extracting source /opt/vcpkg/downloads/CLIUtils-CLI11-v2.4.2.tar.gz
+-- Applying patch revert-1012-pkgconfig.diff
+-- Using source at /opt/vcpkg/buildtrees/cli11/src/v2.4.2-64dc5db4f1.clean
+-- Configuring x64-linux
+-- Building x64-linux-dbg
+-- Building x64-linux-rel
+-- Fixing pkgconfig file: /opt/vcpkg/packages/cli11_x64-linux/lib/pkgconfig/CLI11.pc
+-- Fixing pkgconfig file: /opt/vcpkg/packages/cli11_x64-linux/debug/lib/pkgconfig/CLI11.pc
+-- Installing: /opt/vcpkg/packages/cli11_x64-linux/share/cli11/copyright
+-- Performing post-build validation
+Stored binaries in 1 destinations in 328 ms.
+Elapsed time to handle cli11:x64-linux: 27 s
+cli11:x64-linux package ABI: fbb23337f061dc4aceaef157f06efa2e709b2c6de772668929754a63b460d38c
+Installing 5/8 picojson:x64-linux@1.3.0#3...
+Building picojson:x64-linux@1.3.0#3...
+Downloading kazuho-picojson-v1.3.0.tar.gz
+Successfully downloaded kazuho-picojson-v1.3.0.tar.gz.
+-- Extracting source /opt/vcpkg/downloads/kazuho-picojson-v1.3.0.tar.gz
+-- Using source at /opt/vcpkg/buildtrees/picojson/src/v1.3.0-834290ad5d.clean
+-- Installing: /opt/vcpkg/packages/picojson_x64-linux/include/picojson/picojson.h
+-- Installing: /opt/vcpkg/packages/picojson_x64-linux/share/picojson/copyright
+-- Performing post-build validation
+Stored binaries in 1 destinations in 3.81 ms.
+Elapsed time to handle picojson:x64-linux: 441 ms
+picojson:x64-linux package ABI: ba17c92d8076a403b72f4defa3191f82df913db5609ad7cdd2899f7f71fe8619
+Installing 6/8 vcpkg-cmake-get-vars:x64-linux@2024-09-22...
+Building vcpkg-cmake-get-vars:x64-linux@2024-09-22...
+-- Installing: /opt/vcpkg/packages/vcpkg-cmake-get-vars_x64-linux/share/vcpkg-cmake-get-vars/vcpkg_cmake_get_vars.cmake
+-- Installing: /opt/vcpkg/packages/vcpkg-cmake-get-vars_x64-linux/share/vcpkg-cmake-get-vars/cmake_get_vars
+-- Installing: /opt/vcpkg/packages/vcpkg-cmake-get-vars_x64-linux/share/vcpkg-cmake-get-vars/cmake_get_vars/CMakeLists.txt
+-- Installing: /opt/vcpkg/packages/vcpkg-cmake-get-vars_x64-linux/share/vcpkg-cmake-get-vars/vcpkg-port-config.cmake
+-- Installing: /opt/vcpkg/packages/vcpkg-cmake-get-vars_x64-linux/share/vcpkg-cmake-get-vars/copyright
+-- Performing post-build validation
+Stored binaries in 1 destinations in 3.52 ms.
+Elapsed time to handle vcpkg-cmake-get-vars:x64-linux: 35.7 ms
+vcpkg-cmake-get-vars:x64-linux package ABI: 98184c74b8e59e2069e80ba36e99daadb39d87958533fb2b31e49b52a91927f9
+Installing 7/8 openssl:x64-linux@3.4.0...
+Building openssl:x64-linux@3.4.0...
+Downloading openssl-openssl-openssl-3.4.0.tar.gz
+Successfully downloaded openssl-openssl-openssl-3.4.0.tar.gz.
+-- Extracting source /opt/vcpkg/downloads/openssl-openssl-openssl-3.4.0.tar.gz
+-- Applying patch cmake-config.patch
+-- Applying patch command-line-length.patch
+-- Applying patch script-prefix.patch
+-- Applying patch asm-armcap.patch
+-- Applying patch windows/install-layout.patch
+-- Applying patch windows/install-pdbs.patch
+-- Applying patch unix/android-cc.patch
+-- Applying patch unix/move-openssldir.patch
+-- Applying patch unix/no-empty-dirs.patch
+-- Applying patch unix/no-static-libs-for-shared.patch
+-- Using source at /opt/vcpkg/buildtrees/openssl/src/nssl-3.4.0-821e8e5bdc.clean
+openssl requires Linux kernel headers from the system package manager.
+   They can be installed on Alpine systems via `apk add linux-headers`.
+   They can be installed on Ubuntu systems via `apt install linux-libc-dev`.
+
+-- Getting CMake variables for x64-linux
+-- Getting CMake variables for x64-linux-dbg
+-- Getting CMake variables for x64-linux-rel
+-- Configuring x64-linux-dbg
+-- Configuring x64-linux-rel
+-- Building x64-linux-dbg
+-- Installing x64-linux-dbg
+-- Building x64-linux-rel
+-- Installing x64-linux-rel
+-- Fixing pkgconfig file: /opt/vcpkg/packages/openssl_x64-linux/lib/pkgconfig/libcrypto.pc
+-- Fixing pkgconfig file: /opt/vcpkg/packages/openssl_x64-linux/lib/pkgconfig/libssl.pc
+-- Fixing pkgconfig file: /opt/vcpkg/packages/openssl_x64-linux/lib/pkgconfig/openssl.pc
+-- Fixing pkgconfig file: /opt/vcpkg/packages/openssl_x64-linux/debug/lib/pkgconfig/libcrypto.pc
+-- Fixing pkgconfig file: /opt/vcpkg/packages/openssl_x64-linux/debug/lib/pkgconfig/libssl.pc
+-- Fixing pkgconfig file: /opt/vcpkg/packages/openssl_x64-linux/debug/lib/pkgconfig/openssl.pc
+-- Installing: /opt/vcpkg/packages/openssl_x64-linux/share/openssl/usage
+-- Installing: /opt/vcpkg/packages/openssl_x64-linux/share/openssl/copyright
+Downloading patchelf-0.14.5-x86_64.tar.gz
+Successfully downloaded patchelf-0.14.5-x86_64.tar.gz.
+-- Performing post-build validation
+Stored binaries in 1 destinations in 3.2 s.
+Elapsed time to handle openssl:x64-linux: 5.5 min
+openssl:x64-linux package ABI: 7b72f73f96c7dc5879c61cf98a1ae6f8e4d0741171a795888ba1350a7e96d834
+Installing 8/8 jwt-cpp:x64-linux@0.7.0#1...
+Building jwt-cpp:x64-linux@0.7.0#1...
+Downloading Thalhammer-jwt-cpp-v0.7.0.tar.gz
+Successfully downloaded Thalhammer-jwt-cpp-v0.7.0.tar.gz.
+-- Extracting source /opt/vcpkg/downloads/Thalhammer-jwt-cpp-v0.7.0.tar.gz
+-- Applying patch external-json.diff
+-- Using source at /opt/vcpkg/buildtrees/jwt-cpp/src/v0.7.0-fbdcde860a.clean
+-- Configuring x64-linux
+-- Building x64-linux-rel
+-- Installing: /opt/vcpkg/packages/jwt-cpp_x64-linux/share/jwt-cpp/copyright
+-- Performing post-build validation
+Stored binaries in 1 destinations in 10.6 ms.
+Elapsed time to handle jwt-cpp:x64-linux: 1.4 s
+jwt-cpp:x64-linux package ABI: 49f7146605a9884f5b0a6f7d86b9d84ba21f4f97adbe7e742ecb9d082e023322
+Total install time: 6.3 min
+ada-url provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(ada CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE ada::ada)
+
+cli11 provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(CLI11 CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE CLI11::CLI11)
+
+cli11 provides pkg-config modules:
+
+  # C++ command line parser
+  CLI11
+
+jwt-cpp provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(jwt-cpp CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE jwt-cpp::jwt-cpp)
+

@@ -51,7 +51,10 @@ build() {
 }
 
 run() {
-    exec ./"$BUILD"/zoomsdk
+    echo "JOIN_URL = $JOIN_URL"
+    echo "JOIN_TOKEN = $JOIN_TOKEN"
+    echo "AUDIO_FILE = $AUDIO_FILE"
+    exec ./"$BUILD"/zoomsdk --join-url "$JOIN_URL" --join-token "$JOIN_TOKEN" RawAudio --file "$AUDIO_FILE"
 }
 
 build && run;

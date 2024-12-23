@@ -1,5 +1,5 @@
 {
-  "name": "meeting-sdk-linux-sample",
+  "name": "zoom-meetingsdk",
   "version": "1",
   "dependencies": [
     "ada-url",

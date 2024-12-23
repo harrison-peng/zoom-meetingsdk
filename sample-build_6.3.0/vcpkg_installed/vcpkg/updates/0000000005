@@ -1,0 +1,8 @@
+Package: ada-url
+Version: 2.9.2
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-linux
+Multi-Arch: same
+Abi: c05e63fc017bcab3d39598d71ab3076de98ed31c11cde41d532da041d6372d33
+Description: WHATWG-compliant and fast URL parser written in modern C++
+Status: install ok installed

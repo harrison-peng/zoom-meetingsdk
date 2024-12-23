@@ -1,8 +1,15 @@
+version: '3'
+
 services:
   zoomsdk: &zoomsdk
     build: ./
-    platform: linux/amd64
+    #platform: linux/amd64
     volumes:
      - .:/tmp/meeting-sdk-linux-sample
     ports:
-      - "3000:3000"
+      - "3001:3001"
+    environment:
+      JOIN_URL: '${JOIN_URL}'
+      JOIN_TOKEN: '${JOIN_TOKEN}'
+      AUDIO_FILE: '${AUDIO_FILE}'
+
